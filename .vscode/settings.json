@@ -1,5 +1,6 @@
 {
   "pasteImage.defaultName": "Y-MM-DD-HH-mm-ss-SSS",
   "pasteImage.insertPattern": "${imageSyntaxPrefix}./images/${imageFileName}${imageSyntaxSuffix}",
-  "pasteImage.path": "${currentFileDir}/images"
+  "pasteImage.path": "${currentFileDir}/images",
+  "editor.wordWrap": "on"
 }

@@ -5,7 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "dev": "npx @marp-team/marp-cli -s ./src"
+    "dev": "npx @marp-team/marp-cli -s ./src",
+    "pptx": "npx @marp-team/marp-cli ./src --pptx --theme-set ./styles/*.css --allow-local-files",
+    "pdf": "npx @marp-team/marp-cli ./src --pdf --theme-set ./styles/*.css --allow-local-files --pdf-outlines"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +21,8 @@
   },
   "lint-staged": {
     "*.{json,md}": "prettier --write"
+  },
+  "dependencies": {
+    "sharp": "^0.33.3"
   }
 }

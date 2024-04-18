@@ -1,10 +1,8 @@
 ---
 marp: true
 theme: "gaia"
-header: "TITLE DATE"
-footer: "NAME"
-backgroundColor: white
-headingDivider: 1
+header: "タイトル"
+footer: "by @YoshiYoshiPro"
 paginate: true
 size: 16:9
 math: katex
