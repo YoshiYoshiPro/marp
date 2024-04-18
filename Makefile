@@ -1,2 +1,2 @@
 new:
-    ./scripts/new.sh
+	./scripts/new.sh
