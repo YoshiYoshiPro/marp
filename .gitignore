@@ -206,3 +206,6 @@ $RECYCLE.BIN/
 *.html
 *.pdf
 *.pptx
+
+/src/*
+!/src/template/
