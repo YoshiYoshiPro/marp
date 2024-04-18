@@ -1,0 +1,2 @@
+new:
+    ./scripts/new.sh
