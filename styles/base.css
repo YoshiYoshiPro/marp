@@ -17,10 +17,14 @@
   --font-weight-normal: 400;
   --font-weight-bold: 700;
   --normal-border-radius: 5px;
+  --lead-h1-font-size: 80px;
+  --lead-h2-font-size: 40px;
+  --mini-font-size: 20px;
+  --header-footer-height: 50px;
 }
 
 section {
-  padding: 60px 40px 10px 40px;
+  padding: 60px 50px 10px 50px;
   font-family: "Noto Sans", sans-serif;
   font-size: var(--main-font-size);
   font-weight: var(--font-weight-normal);
@@ -90,4 +94,49 @@ section code {
 section ul,
 ol {
   padding-left: 40px;
+}
+
+section.lead h1 {
+  font-size: var(--lead-h1-font-size);
+  margin: 0 auto 100px;
+  border: 0;
+  height: 50px;
+}
+
+section.lead h2 {
+  font-size: var(--lead-h2-font-size);
+  margin: 0 auto 100px;
+  height: 0px;
+}
+
+section strong {
+  font-weight: var(--font-weight-bold);
+}
+
+section.toc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote {
+  border-top: 0.1em dashed var(--black);
+  font-size: var(--mini-font-size);
+  width: 100%;
+  width: 90%;
+  position: absolute;
+  bottom: var(--header-footer-height);
+  padding-left: 0px;
+}
+
+blockquote::before {
+  display: none;
+}
+blockquote::after {
+  display: none;
+}
+
+section::after {
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
 }

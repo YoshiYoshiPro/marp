@@ -1,15 +1,11 @@
 # Set Up
-- 拡張機能に「Paste Image」(mushan.vscode-paste-image)と「Marp for VS Code」（marp-team.marp-vscode）を追加してください。
+- 拡張機能に`Paste Image`(mushan.vscode-paste-image)と`Marp for VS Code`（marp-team.marp-vscode）を追加してください。
 - `npm install`
 
 # How to
 - `make new`で新規のスライドのプロジェクトを作成します。
-- `npm run dev`でレイアウトを確認することができます。
-- `make resize PROJECT=プロジェクト名`でプロジェクト配下のimage/の画像ファイルがすべて1280x720にリサイズされます。
--
-
+- `npm run dev`でスライドのレイアウトを確認することができます。
+- `make resize PROJECT=プロジェクト名`で`/src/{プロジェクト名}/images/`下の画像ファイルがすべて`1280x720`にリサイズされます。
 
 # Notes
-- 基本的に画像を添付する場合は、一スライドに1画像です。
-- 添付画像を編集したい場合は、Canva等のデザインツールで編集したものを添付してください。
--
+- `npm run pdf`や`npm run pptx`でPDFファイルやpptxファイルを出力することができますが、`/src/`下のすべての`index.md`に適用されるので、`Marp for VS Code`のエクスポート機能から個別に出力するのをお勧めします。

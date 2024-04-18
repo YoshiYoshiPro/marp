@@ -6,31 +6,29 @@ paginate: true
 size: 16:9
 math: katex
 ---
+<!--
+_class: lead
+-->
+# タイトル
+## サブタイトル
+---
+<!--
+_class: toc
+-->
+# 目次
+  1.
+  2.
+  3.
+  4.
+<!-- ---
+# 引用サンプル
 
-# TITLE
-# title
-```python
-for i in range(10):
-    print(i)
-```
+〇〇が成り立つ$^{[1]}$
 
-hello
-HELLO
+〇〇も成り立つ$^{[2]}$
 
-
+> [1] https://example.com
+> [2] https://sub.example.com -->
 ---
 
-
-# テスト
-
-あいうえお
-Hiroki Yoshioka
-吉岡宏樹
-
-- テスト
-
-
-| TH | TH |
-| ---- | ---- |
-| TD | TD |
-| TD | TD |
+<!-- これ以降に記述 -->
