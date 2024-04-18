@@ -1,10 +1,11 @@
 /* @theme base */
 @import "gaia";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --main-theme: rgb(14, 131, 253);
-  --background-theme: rgb(239, 255, 255);
-  --background-code: rgb(255, 229, 193);
+  --main-theme: rgb(43, 43, 43);
+  --background-code: rgb(20, 20, 20);
+  --code-text-color: rgb(233, 236, 239);
   --black: rgb(40, 40, 40);
   --h1-font-size: 50px;
   --h2-font-size: 45px;
@@ -20,7 +21,7 @@
 
 section {
   padding: 60px 40px 10px 40px;
-  background-color: var(--background-theme);
+  font-family: "Noto Sans", sans-serif;
   font-size: var(--main-font-size);
   font-weight: var(--font-weight-normal);
   color: var(--black);
@@ -39,7 +40,7 @@ footer {
   text-align: left;
   padding-bottom: 0;
   font-size: var(--header-footer-font-size);
-  height: 50px;
+  height: 60px;
 }
 
 section h1 {
@@ -70,7 +71,7 @@ section p img {
 }
 
 section pre {
-  background-color: var(--background-theme);
+  background-color: var(--background-code);
   border-radius: var(--normal-border-radius);
   border: var(--black) 1px solid;
 }
@@ -80,7 +81,7 @@ section code.language-txt {
 }
 
 section code {
-  color: var(--black);
+  color: var(--code-text-color);
   background-color: var(--background-code);
   padding: 4px 8px 4px;
   border-radius: 4px;
