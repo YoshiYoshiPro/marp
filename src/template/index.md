@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: "gaia"
+theme: "base"
 header: "タイトル"
 footer: "by @YoshiYoshiPro"
 paginate: true
