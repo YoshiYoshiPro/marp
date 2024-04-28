@@ -126,7 +126,7 @@ blockquote {
   width: 100%;
   width: 90%;
   position: absolute;
-  bottom: var(--header-footer-height);
+  bottom: calc(var(--header-footer-height) - 20px);
   padding-left: 0px;
 }
 
