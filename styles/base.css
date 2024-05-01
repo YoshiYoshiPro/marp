@@ -4,6 +4,7 @@
 
 :root {
   --main-theme: rgb(43, 43, 43);
+  --background-theme: rgb(255, 255, 255);
   --background-code: rgb(20, 20, 20);
   --code-text-color: rgb(233, 236, 239);
   --black: rgb(40, 40, 40);
@@ -25,6 +26,7 @@
 
 section {
   padding: 60px 50px 10px 50px;
+  background-color: var(--background-theme);
   font-family: "Noto Sans", sans-serif;
   font-size: var(--main-font-size);
   font-weight: var(--font-weight-normal);
@@ -49,7 +51,8 @@ footer {
 
 section h1 {
   font-size: var(--h1-font-size);
-  border-bottom: 2px solid var(--black);
+  color: rgb(31, 73, 125);
+  /* border-bottom: 2px solid var(--black); */
   margin-bottom: 10px;
 }
 
@@ -111,6 +114,7 @@ section.lead h2 {
 
 section strong {
   font-weight: var(--font-weight-bold);
+  color: rgb(250, 3, 1);
 }
 
 section.toc {
@@ -126,7 +130,7 @@ blockquote {
   width: 100%;
   width: 90%;
   position: absolute;
-  bottom: calc(var(--header-footer-height) - 20px);
+  bottom: var(--header-footer-height);
   padding-left: 0px;
 }
 
@@ -139,4 +143,5 @@ blockquote::after {
 
 section::after {
   content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+  position: absolute;
 }

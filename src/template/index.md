@@ -6,7 +6,6 @@ paginate: true
 size: 16:9
 math: katex
 ---
-
 <!--
 _class: lead
 -->
@@ -14,7 +13,6 @@ _class: lead
 ## サブタイトル
 
 ---
-
 <!--
 _class: toc
 -->
@@ -34,7 +32,11 @@ _class: toc
 
 > [1] https://example.com
 > [2] https://sub.example.com -->
->
----
 
+<!-- | TH | TH | TH |
+| :---: | :---: | :---: |
+| TD | TD | TD |
+| TD | TD | TD | -->
+
+---
 <!-- これ以降に記述 -->
