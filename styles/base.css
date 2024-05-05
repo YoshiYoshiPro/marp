@@ -38,6 +38,7 @@ header {
   color: var(--black);
   font-size: var(--header-footer-font-size);
   height: 50px;
+  text-align: right;
 }
 
 footer {
