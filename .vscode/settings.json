@@ -2,5 +2,7 @@
   "pasteImage.defaultName": "Y-MM-DD-HH-mm-ss-SSS",
   "pasteImage.insertPattern": "${imageSyntaxPrefix}./images/${imageFileName}${imageSyntaxSuffix}",
   "pasteImage.path": "${currentFileDir}/images",
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "markdown.marp.enableHtml": true,
+  "markdown.marp.exportType": "pptx"
 }
