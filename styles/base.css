@@ -146,3 +146,8 @@ section::after {
   content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
   position: absolute;
 }
+
+section.lead::after,
+section.lead header {
+  display: none;
+}
